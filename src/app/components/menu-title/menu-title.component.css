@@ -1,0 +1,23 @@
+.container__menu-title{
+    width: 100%;
+    max-height: 160px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    background: none;
+    color: aliceblue;
+    text-shadow: 0 0 hsla(0, 0%, 100%, 0);
+    font-size: 5rem;
+    margin-left: -50px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: Segoe UI, OpenSans, Roboto, Arial, Tahoma, Helvetica, sans-serif;
+}
+
+h5 {
+    color: white;
+    line-height: 210px;
+    margin-left: -140px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}

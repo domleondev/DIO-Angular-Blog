@@ -1,0 +1,65 @@
+.container__menu-bar {
+display: flex;
+justify-content: center;
+width: 100%;
+height: 70px;
+background: whitesmoke;
+-webkit-box-shadow: -4px 5px 38px 5px rgba(250, 250, 250, 0.56); 
+box-shadow: -4px 5px 38px 5px rgba(255, 255, 255, 0.56);
+}
+
+.container__logo {
+    width: 25%;
+}
+
+.container__menu-links {
+    width: 75%;
+    margin-left: 36%;
+}
+
+p {
+    background: linear-gradient(90deg, #ff5800 12.66%, #ce0569 94.55%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10%;
+    margin-top: 18px;
+    font-size:x-large;
+    font-weight: 700;
+    font-family: Segoe UI, OpenSans, Roboto, Arial, Tahoma, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: #333;
+    font-family: Segoe UI, OpenSans, Roboto, Arial, Tahoma, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+li {
+    margin-right: 10%;
+    list-style: none;
+}
+
+.container__menu-bar ul li a {
+    color: black; /* Default text color */
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    background: none; /* Remove background initially */
+}
+
+.container__menu-bar ul li a:hover {
+    background: linear-gradient(90deg, #ce0569 12.66%, #ff5800 94.55%);
+    
+    /* Ensure compatibility across different browsers */
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    /* Make the text transparent so the gradient shows */
+    -webkit-text-fill-color: transparent;
+    /*text-fill-color: transparent;  Standard property */
+}

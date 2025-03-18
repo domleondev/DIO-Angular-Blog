@@ -2,6 +2,8 @@
 # DIO-Angular-Blog
 Blog criado em Angular com os conhecimentos adquiridos na plataforma da DIO
 =======
+![image](https://github.com/user-attachments/assets/2c0625d3-fdad-4a84-b1d9-e88e156266ed)
+
 # AngularBlog
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.

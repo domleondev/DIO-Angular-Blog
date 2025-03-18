@@ -1,23 +1,29 @@
 .container__menu-title{
     width: 100%;
     max-height: 160px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
 h1{
-    background: none;
-    color: aliceblue;
-    text-shadow: 0 0 hsla(0, 0%, 100%, 0);
+    background: linear-gradient(90deg, #ce0569 12.66%, #ff5800 94.55%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: hsla(0, 0%, 100%, 0);
     font-size: 5rem;
-    margin-left: -50px;
+    margin-left: -150px;
+    padding-bottom: 80px;
     line-height: 50px;
     font-weight: 700;
     font-family: Segoe UI, OpenSans, Roboto, Arial, Tahoma, Helvetica, sans-serif;
 }
 
 h5 {
-    color: white;
-    line-height: 210px;
-    margin-left: -140px;
+    background: linear-gradient(90deg, #ce0569 12.66%, #ff5800 94.55%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: hsla(0, 0%, 100%, 0);
+    line-height: 70px;
+    margin-left: -220px;
     font-family: Comic Sans MS, Comic Sans, cursive;
 }

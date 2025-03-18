@@ -4,6 +4,7 @@ import { BigCardComponent } from "../../components/big-card/big-card.component";
 import { MenuTitleComponent } from "../../components/menu-title/menu-title.component";
 import { SmallCardComponent } from "../../components/small-card/small-card.component";
 
+
 @Component({
   selector: 'app-home',
   imports: [MenuBarComponent, BigCardComponent, MenuTitleComponent, SmallCardComponent],

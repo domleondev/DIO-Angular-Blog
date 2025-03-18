@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    background: #ffffff;
+}
+
+
+.container__background {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url(https://www.avanade.com/_next/static/media/spriteLogoLines.4bb5ba4c.svg);
+    background-size: 557%;
+    background-position: 17.44% 51.1%;
+    padding-top: 10.91796875%;
+}
+
+.container__menu-title{
+    display: flex;
+    background: linear-gradient(90deg, #ce0569 12.66%, #ff5800 94.55%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: hsla(0, 0%, 100%, 0);
+    text-shadow: 0 0 hsla(0, 0%, 100%, 0);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.container__content-title {
+    display: flex;
+    z-index: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container__news-bar {
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    height: 350px;
+}
+.container__content-text {
+    display: flex;
+    z-index: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 30%;
+    height: 100%;
+}
+.container__content-image {
+    display: flex;
+    z-index: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+h1{
+    background: linear-gradient(90deg, #ce0569 12.66%, #ff5800 94.55%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: hsla(0, 0%, 100%, 0);
+    text-shadow: 0 0 hsla(0, 0%, 100%, 0);
+    font-size: 4rem;
+    margin-left: -50px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: Segoe UI, OpenSans, Roboto, Arial, Tahoma, Helvetica, sans-serif;
+}
+
+p {
+    font-weight: 400;
+    color: #333;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+h3 {
+    color: #333;
+    font-size: 2.25rem;
+    line-height: 46px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+a {
+    color: #333;
+    font-size: 1.55rem;
+    line-height: 46px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 2%;
+}
+a :hover {
+    background: linear-gradient(90deg, #ff5800 12.66%, #ce0569 94.55%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img {
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+     h1 {
+        font-size: 1.75rem;
+        line-height: 34px;
+        font-weight: 700;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        line-height: normal;
+        font-weight: 700;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container__content-title p {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    .container__content-text p {
+        margin-top: 5%;
+    }
+
+    .container__news-bar {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column-reverse;
+        height: 100%;
+        width: 100%;
+    }
+
+    .container__content-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    .container__content-image {
+        display: flex;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        height: auto; /* Mantém a proporção */
+        align-items: center;
+        justify-content: center;
+    }
+}

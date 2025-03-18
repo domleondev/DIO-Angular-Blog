@@ -4,44 +4,56 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    width: 100%;
     margin-top: 0;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.big-card__description {
+    max-width: 700px;
 }
 
 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 25px;
     margin-top: 5px;
-    margin-left: 5px;
 }
 
 p {
-    color:ghostwhite;
+    color:#333;
     font-size: 15px;
     margin-top: 1px;
-    margin-left: 20px;
 }
 
 img {
     width: 100%;
-    min-width: 250px
 }
 
 a {
     text-decoration: none;
     transition: 0.3s ease-in-out;
-    color: rgb(249, 239, 236);
+    color: #333;
 }
 
 p :hover {
-    color: aliceblue;
-    background: linear-gradient(90deg, #fabbdb 12.66%, #f0e3ea 94.55%);
-    background-clip: text;
+    background: linear-gradient(90deg, #ce0569 12.66%, #ff5800 94.55%);
+    background-clip: border-box;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: hsla(0, 0%, 100%, 0);
 }
 
 h1 :hover {
-    background: linear-gradient(90deg, #fabbdb 12.66%, #f5c3a8 94.55%);
-    background-clip: text;
+    background: linear-gradient(90deg, #ce0569 12.66%, #ff5800 94.55%);
+    background-clip: border-box;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: hsla(0, 0%, 100%, 0);
+}
+
+@media (max-width: 880px){
+    .container__big-card{
+        width: 100%;
+    }
 }

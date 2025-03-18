@@ -1,4 +1,53 @@
+.container__background {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    opacity: 0.4;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url(https://www.avanade.com/_next/static/media/spriteLogoLines.4bb5ba4c.svg);
+    background-size: 557%;
+    background-position: 17.44% 51.1%;
+    padding-top: 10.91796875%;
+}
+
 .articles {
     display: flex;
     flex-direction: row;
+}
+
+.articles__main {
+    width: 37%;
+}
+.articles__others {
+    width: 63%;
+}
+
+footer {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+    background: linear-gradient(90deg, #ff5800 12.66%, #ce0569 94.55%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 728px) {
+    .articles {
+        flex-direction: column;
+    }
+    .articles__main {
+        width: 100%;
+    }
+    .articles__others {
+        width: 100%;
+    }
 }

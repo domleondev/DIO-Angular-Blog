@@ -3,6 +3,8 @@
 Blog criado em Angular com os conhecimentos adquiridos na plataforma da DIO
 =======
 ![image](https://github.com/user-attachments/assets/2c0625d3-fdad-4a84-b1d9-e88e156266ed)
+![image](https://github.com/user-attachments/assets/ef95d67f-1515-4f2e-add1-4e491e16daee)
+
 
 # AngularBlog
 
